@@ -1,0 +1,40 @@
+:root {
+  --beauty-brend-1: #2b7fff;
+  --beauty-brend-2: #011c44;
+  --beauty-white: #fff;
+}
+/* Base */
+body {
+  color: var(--beauty-brend-2);
+}
+
+ul {
+  list-style-type: none;
+}
+/* Link */
+.link {
+  color: var(--beauty-brend-2);
+}
+.link:hover {
+  color: var(--beauty-brend-1);
+}
+
+/* Button */
+.button {
+  color: var(--beauty-white);
+  background-color: var(--beauty-brend-1);
+  border: 2px solid var(--beauty-brend-1);
+  border-radius: 32px;
+}
+.button:hover {
+  color: var(--beauty-brend-2);
+  background-color: transparent;
+}
+
+.section-title .accent {
+  color: var(--beauty-brend-1);
+}
+/* Hero */
+.hero-section__title {
+  color: var(--beauty-brend-1);
+}
